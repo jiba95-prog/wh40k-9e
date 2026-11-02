@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="82" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="83" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks 2021" />
     <publication id="b556-84c7-4532-bca5" name="Da Red Gobbbo on Bounca" publisher="Da Red Gobbbo on Bounca Boxset" publicationDate="2021-11-13" />
@@ -18081,9 +18081,9 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
     <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="3a89d3e9-3df8-4996-8878-5453703830f0" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
-        <categoryLink id="fa8ca66f-7605-42a7-bb85-284d941b3367" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="true" />
+        <categoryLink id="fa8ca66f-7605-42a7-bb85-284d941b3367" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="d9b63d34-1611-4d01-95c5-89ad352f5ca9" name="Breaka Boyz [11e convert]" hidden="false" targetId="adc9-f342-6988-d184" primary="false" />
-        <categoryLink id="1d63066a-f9d8-4754-a239-d1fce4608582" name="Explosives" hidden="false" targetId="d7942261-5441-4d1a-a348-1981ddfb61ef" primary="false" /></categoryLinks>
+        <categoryLink id="1d63066a-f9d8-4754-a239-d1fce4608582" name="Explosives" hidden="false" targetId="d7942261-5441-4d1a-a348-1981ddfb61ef" primary="false" /><categoryLink id="f5b09a5a-2c2e-4048-91ca-d71651895771" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true" /></categoryLinks>
       
       <costs>
         <cost name="pts" typeId="points" value="120" />
@@ -18239,11 +18239,11 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
     
     <selectionEntry id="3b35-92f5-bd1a-af8d" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="59ee9486-f2ff-455c-8367-67586df441a9" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="59ee9486-f2ff-455c-8367-67586df441a9" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="4ca0ab18-5670-429b-8a47-820f863d6ec1" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="05e6ddd9-6695-462b-b591-dfd0d10a58eb" name="Bannernob [11e convert]" hidden="false" targetId="25e0-82e0-8ebb-b19f" primary="false" />
         <categoryLink id="83186c6d-5818-4d03-b511-69d6529dbf16" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
-        <categoryLink id="73cddb29-9493-4d67-8ac2-82b5069ada39" name="Support" hidden="false" targetId="a05d7ca4-1052-4cda-af08-6f97b424945c" primary="false" /></categoryLinks>
+        <categoryLink id="73cddb29-9493-4d67-8ac2-82b5069ada39" name="Support" hidden="false" targetId="a05d7ca4-1052-4cda-af08-6f97b424945c" primary="false" /><categoryLink id="3c16a79f-0594-4ace-aff5-e51ed3215612" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="30" /></costs>
       <infoLinks>
@@ -18268,7 +18268,7 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <categoryLink id="b45e13f0-b332-4216-a68b-414b539ac9d6" name="Big Mek" hidden="false" targetId="0a26-a35d-81bb-13ac" primary="false" />
         <categoryLink id="14230331-49de-4582-b777-591662bd60c8" name="Big Mek Dakkarig [11e convert]" hidden="false" targetId="49ff-f4c9-0ec7-ba98" primary="false" />
         <categoryLink id="b2f3ead4-d52b-4b31-996c-2d021883343a" name="Walker" hidden="false" targetId="754be14e-9bf8-4e2d-8805-5603fd5e647c" primary="false" />
-        <categoryLink id="47399f3c-b9e4-4634-97b8-6058f5047614" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" /></categoryLinks>
+        <categoryLink id="47399f3c-b9e4-4634-97b8-6058f5047614" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" /><categoryLink id="51fd3261-29ea-485e-8f65-eb00eeec8dec" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160" /></costs>
       <infoLinks>
@@ -18287,13 +18287,13 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
                   </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
     <selectionEntry id="dde2-ca42-e3bc-2ef6" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="1d78173e-c901-4fcd-ab36-272645ac8b8d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="1d78173e-c901-4fcd-ab36-272645ac8b8d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="c8ba0108-12e8-45c3-a2d0-e5a61de6a1a7" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="b2b5e24c-c6e5-4a1d-8cc7-a6729254860f" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="430b363c-3fbe-49a8-b9fc-3d96d93dab9e" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" targetId="2810-316b-919d-657e" primary="false" />
         <categoryLink id="79b38f73-f96b-4a86-9b45-2b7f8a14aa70" name="Leader" hidden="false" targetId="1a3d99d0-cc4a-48ca-8410-15796b567405" primary="false" />
         <categoryLink id="54c09c66-2bbc-492e-8395-fa9eff470e41" name="Big Mek" hidden="false" targetId="0a26-a35d-81bb-13ac" primary="false" />
-        <categoryLink id="d4323277-824f-4802-8e0d-4e03b9fcd719" name="Explosives" hidden="false" targetId="d7942261-5441-4d1a-a348-1981ddfb61ef" primary="false" /></categoryLinks>
+        <categoryLink id="d4323277-824f-4802-8e0d-4e03b9fcd719" name="Explosives" hidden="false" targetId="d7942261-5441-4d1a-a348-1981ddfb61ef" primary="false" /><categoryLink id="f695606d-c9c4-4b51-adc7-ea0dd05d8658" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110" /></costs>
       <infoLinks>
@@ -18317,10 +18317,10 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
     <selectionEntry id="181e-be55-d9c6-2b69" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="bba544c6-8206-459c-9f13-c9410d4f371d" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
-        <categoryLink id="501d126e-c2ed-41aa-9e83-5876faab6c5c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="501d126e-c2ed-41aa-9e83-5876faab6c5c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="278ce81c-15df-45a8-8572-c5bcba73f7ea" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="39247c82-62c0-4d20-be60-46c281130f7c" name="Bigboss [11e convert]" hidden="false" targetId="bc7d-1d29-329e-70f2" primary="false" />
-        <categoryLink id="984ecb4b-eff5-41ed-9753-8921a9a8ca23" name="Support" hidden="false" targetId="a05d7ca4-1052-4cda-af08-6f97b424945c" primary="false" /></categoryLinks>
+        <categoryLink id="984ecb4b-eff5-41ed-9753-8921a9a8ca23" name="Support" hidden="false" targetId="a05d7ca4-1052-4cda-af08-6f97b424945c" primary="false" /><categoryLink id="84782169-6d8d-42bf-8080-4aedeb43b82e" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50" /></costs>
       <infoLinks>
@@ -18341,13 +18341,13 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
                   </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
     <selectionEntry id="3e53-68fa-a7b4-d6c6" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="ec890553-c230-4fcd-8f8f-4db4a5939d94" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
+        <categoryLink id="ec890553-c230-4fcd-8f8f-4db4a5939d94" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="false" />
         <categoryLink id="31a5c47a-ea9d-43f4-a60d-be5833b084dd" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="a736ec80-8dd5-4003-9762-81e17b925cdb" name="Mounted" hidden="false" targetId="f89b6753-3b05-463b-a3b4-71ed612283f3" primary="false" />
         <categoryLink id="79446e9d-aebf-44d7-9ed6-7bcb76c233d2" name="Gretchin" hidden="false" targetId="0b2c-1505-90c2-24ed" primary="false" />
         <categoryLink id="2371f956-cb26-4041-afb4-109f4e5b8d6a" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false" />
         <categoryLink id="09920241-2905-4c6d-912b-ef4f12104003" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
-        <categoryLink id="5d9f0453-f985-4a96-bd44-22c216a50a73" name="Grotmas Gitz [11e convert]" hidden="false" targetId="7538-fc6d-7494-ec0f" primary="false" /></categoryLinks>
+        <categoryLink id="5d9f0453-f985-4a96-bd44-22c216a50a73" name="Grotmas Gitz [11e convert]" hidden="false" targetId="7538-fc6d-7494-ec0f" primary="false" /><categoryLink id="a77c36c4-2df4-4109-af1b-205e7e8bac4a" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40" /></costs>
       <infoLinks>
@@ -18364,13 +18364,13 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
     <selectionEntry id="80c4-14b2-d02d-d289" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="a5e1b98a-978f-4033-8143-5259b8a69021" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
-        <categoryLink id="882df09d-86f2-465c-96eb-640d0cfbeb28" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
+        <categoryLink id="882df09d-86f2-465c-96eb-640d0cfbeb28" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="false" />
         <categoryLink id="b46d2843-f32e-4e17-a0de-3bed48bd4657" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="23974d5c-c874-415a-a379-ac7100c2d000" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="196da30b-6557-4459-b856-76994db7e9b5" name="Warboss" hidden="false" targetId="0337-1e5e-8071-a198" primary="false" />
         <categoryLink id="1ccd08d2-f605-4e33-bdb8-00af2da4c281" name="Mega Armour" hidden="false" targetId="0f75-56ae-9b7c-afd9" primary="false" />
         <categoryLink id="1a0e69af-4bef-411e-886e-3d72e5a47870" name="Nazdreg [11e convert]" hidden="false" targetId="4649-cf7f-6d97-df94" primary="false" />
-        <categoryLink id="1d7c07dc-de36-4bb6-a212-a6ad2f841f92" name="Leader" hidden="false" targetId="1a3d99d0-cc4a-48ca-8410-15796b567405" primary="false" /></categoryLinks>
+        <categoryLink id="1d7c07dc-de36-4bb6-a212-a6ad2f841f92" name="Leader" hidden="false" targetId="1a3d99d0-cc4a-48ca-8410-15796b567405" primary="false" /><categoryLink id="d8fc8ab3-ca56-4173-9a2d-ac6d11de7569" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="165" /></costs>
       <infoLinks>
@@ -18395,14 +18395,14 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
               </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
     <selectionEntry id="2ab7-ab71-0af4-5d39" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="f006e1ec-6213-4342-989b-ce04bceed87c" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
+        <categoryLink id="f006e1ec-6213-4342-989b-ce04bceed87c" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="false" />
         <categoryLink id="08e06b25-ef33-4304-802d-7d0e03fdfb2c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="9d583feb-a9e3-45eb-8efe-37392265023c" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="b12186a9-daf5-4a5f-8fd3-44c14fb6d2fe" name="Wazdakka Gutsmek [11e convert]" hidden="false" targetId="4191-d7e3-2b04-9e8e" primary="false" />
         <categoryLink id="27947154-6c24-49c8-a32a-156202195fc0" name="Mounted" hidden="false" targetId="f89b6753-3b05-463b-a3b4-71ed612283f3" primary="false" />
         <categoryLink id="8dd0d58f-3c29-4300-bb9f-629bc37906b9" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false" />
         <categoryLink id="5fe9c22a-ce21-4c1d-ba50-1ed251897d62" name="Speed Freeks" hidden="false" targetId="258d-e4cb-6f35-fe20" primary="false" />
-        <categoryLink id="17e82619-658f-469c-9040-030022eb4426" name="Smoke" hidden="false" targetId="32beec21-c96e-4b86-9933-8eab7bbc040d" primary="false" /></categoryLinks>
+        <categoryLink id="17e82619-658f-469c-9040-030022eb4426" name="Smoke" hidden="false" targetId="32beec21-c96e-4b86-9933-8eab7bbc040d" primary="false" /><categoryLink id="876d90d4-b73c-4085-9b87-7da69a549ba2" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200" /></costs>
       <infoLinks>
@@ -18425,12 +18425,12 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
               </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
     <selectionEntry id="54de-2004-bbc1-3ac6" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="afb72c8a-ede5-4eb3-8d10-7154f0f36848" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="afb72c8a-ede5-4eb3-8d10-7154f0f36848" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="e0f63b88-f5d4-4a8e-8c0f-b7945e200cca" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="cde614cf-6a0e-45de-bae8-3ec8f8785bec" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="860903f6-84f8-49b2-a549-95aae86f3206" name="Crucible" hidden="false" targetId="70ce6f69-d503-42fe-ab7e-cb1dc8510d02" primary="false" />
         <categoryLink id="39f1b145-c422-4143-a98b-1438880facc3" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false" />
-        <categoryLink id="d259e2f5-89ca-4e81-b1bc-f6564fda27b1" name="Warphead [11e convert]" hidden="false" targetId="3386-f4cc-0d18-20d9" primary="false" /></categoryLinks>
+        <categoryLink id="d259e2f5-89ca-4e81-b1bc-f6564fda27b1" name="Warphead [11e convert]" hidden="false" targetId="3386-f4cc-0d18-20d9" primary="false" /><categoryLink id="120a1240-0bee-4fe2-932e-2ed3764edaa1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="65" /></costs>
       <infoLinks>
@@ -18445,11 +18445,11 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
           </profile></profiles></selectionEntry>
     <selectionEntry id="6610-3cb7-dc72-8852" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="80d078c9-77b8-4982-bc8a-e677bd4960f8" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
+        <categoryLink id="80d078c9-77b8-4982-bc8a-e677bd4960f8" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="false" />
         <categoryLink id="4307ea36-4bce-48e2-aca3-81bc95ad437e" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="9ead8ec7-b57f-4330-b82d-c1387c012978" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="44f4dd13-2903-4b0f-97fc-993d78cdecdc" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
-        <categoryLink id="0bbdd7c5-afaf-465c-b27f-4c4929993a35" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" targetId="eace-d325-834e-71dd" primary="false" /></categoryLinks>
+        <categoryLink id="0bbdd7c5-afaf-465c-b27f-4c4929993a35" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" targetId="eace-d325-834e-71dd" primary="false" /><categoryLink id="25f7aae4-c891-4810-bfa4-cf55dc869a8d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40" /></costs>
       <infoLinks>
@@ -18465,12 +18465,12 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
               </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
     <selectionEntry id="2ba9-e97a-909d-3ac5" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="8766f75b-6679-4bc3-b34e-3d8900ef3b53" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="8766f75b-6679-4bc3-b34e-3d8900ef3b53" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="a08d8012-6e60-44a6-9a65-7a9375cc38ac" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="8f11558e-de34-4e0b-b1c9-70eec21d55ca" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="33c96e30-6538-4861-ba33-bb3c3375dc4a" name="Hordeboss [11e convert]" hidden="false" targetId="6564-d9ce-b28c-b047" primary="false" />
         <categoryLink id="e84dac0b-b820-46cd-883d-35e3f02ade4d" name="Crucible" hidden="false" targetId="70ce6f69-d503-42fe-ab7e-cb1dc8510d02" primary="false" />
-        <categoryLink id="f5b0ce59-e9e9-48a1-9a66-226515a5e9bb" name="Grenades" hidden="false" targetId="58662333-e82f-440c-9141-c7575793d7d6" primary="false" /></categoryLinks>
+        <categoryLink id="f5b0ce59-e9e9-48a1-9a66-226515a5e9bb" name="Grenades" hidden="false" targetId="58662333-e82f-440c-9141-c7575793d7d6" primary="false" /><categoryLink id="7036c7be-85b4-4e18-8a82-e4bc05d2ae7b" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="75" /></costs>
       <infoLinks>
@@ -18484,13 +18484,13 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
           </profile></profiles></selectionEntry>
     <selectionEntry id="6a69-8e75-49ae-408f" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="4b5da113-0f90-4d3a-828c-994e10d2b956" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+        <categoryLink id="4b5da113-0f90-4d3a-828c-994e10d2b956" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
         <categoryLink id="447f14f5-2768-4cf9-825f-85be4902f865" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="23d373cd-0471-47ca-b7d7-b338f3e496e4" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="0ed41584-a6ef-4c1d-bc57-982e793a56e8" name="Crucible" hidden="false" targetId="70ce6f69-d503-42fe-ab7e-cb1dc8510d02" primary="false" />
         <categoryLink id="12facf3c-7b6f-48db-98f3-dcbd04b95344" name="Grenades" hidden="false" targetId="58662333-e82f-440c-9141-c7575793d7d6" primary="false" />
         <categoryLink id="65016079-a59f-4898-a4b4-2897f21305aa" name="Grots [11e convert]" hidden="false" targetId="1e61aa5c-60a1-48e0-a050-0f96b1006f92" primary="false" />
-        <categoryLink id="b444572e-0b05-4775-9134-d9d3579a75bf" name="Upstart Gretchin [11e convert]" hidden="false" targetId="004d-8909-7c60-0da1" primary="false" /></categoryLinks>
+        <categoryLink id="b444572e-0b05-4775-9134-d9d3579a75bf" name="Upstart Gretchin [11e convert]" hidden="false" targetId="004d-8909-7c60-0da1" primary="false" /><categoryLink id="1f77d532-0390-4015-9471-82cea92ff2b5" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" /></categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40" /></costs>
       <infoLinks>
