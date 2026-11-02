@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="79" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="80" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks 2021" />
     <publication id="b556-84c7-4532-bca5" name="Da Red Gobbbo on Bounca" publisher="Da Red Gobbbo on Bounca Boxset" publicationDate="2021-11-13" />
@@ -245,6 +245,7 @@
     <categoryEntry id="32beec21-c96e-4b86-9933-8eab7bbc040d" name="Smoke" hidden="false" />
     <categoryEntry id="70ce6f69-d503-42fe-ab7e-cb1dc8510d02" name="Crucible" hidden="false" />
     <categoryEntry id="58662333-e82f-440c-9141-c7575793d7d6" name="Grenades" hidden="false" />
+    <categoryEntry id="c984-6328-a0bf-c3d8" name="Purple Ork [mock]" hidden="false" />
   </categoryEntries>
   <entryLinks>
     <entryLink id="140b-7829-a8c0-3d3b" name="Beastboss on Squigosaur" hidden="false" collective="false" import="true" targetId="940f-51d5-2e8e-f1d3" type="selectionEntry">
@@ -1273,6 +1274,7 @@
     <entryLink id="e9e4-d332-9c57-f71b" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="6a69-8e75-49ae-408f" type="selectionEntry" />
     <entryLink id="3049-3ebe-9129-ff02" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="54de-2004-bbc1-3ac6" type="selectionEntry" />
     <entryLink id="9f96-0177-abbe-926e" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" targetId="2ab7-ab71-0af4-5d39" type="selectionEntry" />
+    <entryLink id="a527-6048-83c0-7da1" name="Purple Ork [mock]" hidden="false" collective="false" import="true" targetId="b7e9-164e-785c-201a" type="selectionEntry" />
   </entryLinks>
   <rules>
     <rule id="fac1-6afc-e5c9-35c2" name="Ork Detachment Abilities" hidden="false">
@@ -18499,6 +18501,17 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
           </profile><profile id="1293b082-779d-4a78-b235-a42a55377663" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units:
 - **^^Gretchin^^**</characteristic></characteristics>
           </profile></profiles></selectionEntry>
+    <selectionEntry id="b7e9-164e-785c-201a" name="Purple Ork [mock]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+      <categoryLink id="aec7-e6d1-946a-9b38" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
+      <categoryLink id="5e76-a874-3af7-d87e" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
+      <categoryLink id="ad2a-269d-130a-813e" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
+      <categoryLink id="4c18-d539-994c-86c6" name="Purple Ork [mock]" hidden="false" targetId="c984-6328-a0bf-c3d8" primary="false" />
+      </categoryLinks>
+      <costs>
+      <cost name="pts" typeId="points" value="0.0" />
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cb1c-c83b-5adb-5663" name="Power of the WAAAGH!" publicationId="28ec-711c-pubN118139" hidden="false" collective="false" import="true">
