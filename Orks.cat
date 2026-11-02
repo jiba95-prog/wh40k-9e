@@ -223,6 +223,20 @@
     <categoryEntry id="114f-5e93-201d-b88a" name="Deffkopta" hidden="false"/>
     <categoryEntry id="f75b-4bca-9973-4361" name="Looted" hidden="false"/>
     <categoryEntry id="1377-a66f-412a-b5bf" name="Looted &apos;Eavy Wagon" hidden="false"/>
+    <categoryEntry id="49ff-f4c9-0ec7-ba98" name="Big Mek Dakkarig [11e convert]" hidden="false"/>
+    <categoryEntry id="2810-316b-919d-657e" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false"/>
+    <categoryEntry id="25e0-82e0-8ebb-b19f" name="Bannernob [11e convert]" hidden="false"/>
+    <categoryEntry id="bc7d-1d29-329e-70f2" name="Bigboss [11e convert]" hidden="false"/>
+    <categoryEntry id="adc9-f342-6988-d184" name="Breaka Boyz [11e convert]" hidden="false"/>
+    <categoryEntry id="eace-d325-834e-71dd" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false"/>
+    <categoryEntry id="7538-fc6d-7494-ec0f" name="Grotmas Gitz [11e convert]" hidden="false"/>
+    <categoryEntry id="c7c7-ef60-67e3-def2" name="Grots [11e convert]" hidden="false"/>
+    <categoryEntry id="6564-d9ce-b28c-b047" name="Hordeboss [11e convert]" hidden="false"/>
+    <categoryEntry id="4649-cf7f-6d97-df94" name="Nazdreg [11e convert]" hidden="false"/>
+    <categoryEntry id="004d-8909-7c60-0da1" name="Upstart Gretchin [11e convert]" hidden="false"/>
+    <categoryEntry id="3cd9-70a8-d77d-4e9c" name="Waaagh!boss [11e convert]" hidden="false"/>
+    <categoryEntry id="3386-f4cc-0d18-20d9" name="Warphead [11e convert]" hidden="false"/>
+    <categoryEntry id="4191-d7e3-2b04-9e8e" name="Wazdakka Gutsmek [11e convert]" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="140b-7829-a8c0-3d3b" name="Beastboss on Squigosaur" hidden="false" collective="false" import="true" targetId="940f-51d5-2e8e-f1d3" type="selectionEntry">
@@ -1242,6 +1256,20 @@
         <categoryLink id="9cbb-c62c-8e01-7673" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="c5f9-b0ad-28ca-c6be" name="Big Mek Dakkarig [11e convert]" hidden="false" collective="false" import="true" targetId="78a7-cf35-aa8d-c420" type="selectionEntry"/>
+    <entryLink id="5a0a-1194-3fed-a785" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" targetId="dde2-ca42-e3bc-2ef6" type="selectionEntry"/>
+    <entryLink id="a640-2d2e-e97d-4e47" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" targetId="3b35-92f5-bd1a-af8d" type="selectionEntry"/>
+    <entryLink id="73cf-dea3-8634-6e15" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" targetId="181e-be55-d9c6-2b69" type="selectionEntry"/>
+    <entryLink id="16f3-7b41-33dc-02c3" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" targetId="a596-3d99-257e-0ea1" type="selectionEntry"/>
+    <entryLink id="2f38-4e2c-5f49-9b98" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" targetId="eace-d325-834e-71dd" type="selectionEntry"/>
+    <entryLink id="e760-b949-e4ca-ef85" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" targetId="3e53-68fa-a7b4-d6c6" type="selectionEntry"/>
+    <entryLink id="c7c7-ef60-67e3-def2" name="Grots [11e convert]" hidden="false" collective="false" import="true" targetId="f7c2-5590-5c3c-f8d4" type="selectionEntry"/>
+    <entryLink id="cab8-7238-2445-067b" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="2ba9-e97a-909d-3ac5" type="selectionEntry"/>
+    <entryLink id="a72a-b541-0ed2-39e9" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" targetId="80c4-14b2-d02d-d289" type="selectionEntry"/>
+    <entryLink id="e9e4-d332-9c57-f71b" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="6a69-8e75-49ae-408f" type="selectionEntry"/>
+    <entryLink id="d0ff-7d52-a77d-7f62" name="Waaagh!boss [11e convert]" hidden="false" collective="false" import="true" targetId="8bcd-4872-2581-37ca" type="selectionEntry"/>
+    <entryLink id="3049-3ebe-9129-ff02" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="54de-2004-bbc1-3ac6" type="selectionEntry"/>
+    <entryLink id="9f96-0177-abbe-926e" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" targetId="2ab7-ab71-0af4-5d39" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="fac1-6afc-e5c9-35c2" name="Ork Detachment Abilities" hidden="false">
@@ -18044,6 +18072,394 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="8bcd-4872-2581-37ca" name="Waaagh!boss [11e convert]" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f96-ef57-948b-aa38" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebaa-8d5a-dafc-8aee" type="max"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier field="category" scope="root-entry" type="add" value="3cd9-70a8-d77d-4e9c">
+              <conditions>
+                <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier affects="self.entries.ae9d-f74f-769c-5fc" field="category" scope="root-entry" type="add" value="3cd9-70a8-d77d-4e9c">
+              <conditions>
+                <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="47cc-4071-6fda-688e" field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="notInstanceOf"/>
+                    <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition childId="cac3-71d1-ea4b-795d" field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="513c-42ce-9f5a-85e5" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="1571-6a8b-c671-cc48" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink id="e0f8-612d-1570-75b2" name="Breaka Boyz [11e convert]" hidden="false" targetId="adc9-f342-6988-d184" primary="false"/>
+        <categoryLink id="a22b-6849-63b5-176a" name="Explosives" hidden="false" targetId="e33d-891d-33aa-e9bf" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1151-e709-6c8f-13c7" type="max"/>
+        <constraint field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27ac-57a8-1a3f-31ea" type="min"/>
+        <constraint field="selections" scope="self" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc6-d1db-f501-759b" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b4ad-7783-57d2-b983" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="120.0"/>
+      </costs>
+      <entryLinks>
+        <entryLink id="3ba3-165c-5c50-85d2" name="Crusade" hidden="false" collective="false" import="true" targetId="87e9-baa9-52e2-5cce" type="selectionEntryGroup"/>
+        <entryLink id="99b4-417b-b916-7a92" name="Enhancements - Upgrades" hidden="false" collective="false" import="true" targetId="ebea-74c4-f3db-183d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="11dc-18c0-ea82-1d7f" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="f61a-65c3-9f92-3454" name="Bomb Squig (Once per turn, twice per battle, per unit)" hidden="false" targetId="c723-b625-87e1-0b66" type="profile"/>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup comment="Crusade modifiers" type="and">
+          <modifiers>
+            <modifier field="1151-e709-6c8f-13c7" type="increment" value="2.0">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier field="27ac-57a8-1a3f-31ea" type="increment" value="2.0">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="ad4c-2583-ce18-7d78" name="Trophy Hunters" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has +1 to charge rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="616f-71b9-bc04-a9f9" name="5 Breaka Boyz" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a9d-4214-4e66-7f56" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ce-526e-4e9e-de73" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6334-c1dc-0d7c-afda" name="Breaka Boy" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7b-0ab5-9b15-8969" type="min"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c002-58d5-98d2-a4f7" type="max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="eace-d325-834e-71dd" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="1ec2-5c49-3249-a92c" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink id="fe2d-26ab-bce5-2a0d" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink id="c407-c4ef-f52c-c936" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="f631-11b3-5fef-7f26" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="db61-2476-cd14-77f9" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" targetId="eace-d325-834e-71dd" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ade-8f17-74f6-8c8a" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+      <entryLinks>
+        <entryLink id="f7d5-d2bb-249a-9493" name="Warlord" hidden="false" collective="false" import="true" targetId="8b5-898c-f79b-5a9c" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="c076-f3f3-7027-5142" name="Lone Operative" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+        <infoLink id="58ed-7560-9ec5-af29" name="Scouts" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule"/>
+        <infoLink id="589e-4759-ca74-597c" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="42d6-b97c-259d-77b7" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile id="4ea5-b9a1-c003-6b3e" name="Da Red Gobbo" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">5+</characteristic>
+            <characteristic name="Base" typeId="nr-base-size">50mm</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e41d-a685-ccb8-2d24" name="Explosive Snowballs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once in each of your Shooting phases, you can target this unit with the Grenades stratagem for 0CP. After resolving this stratagem, this unit can make a Normal move of up to 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7eb7-313e-8a1b-5596" name="A-bomb-inable Snowman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this model is destroyed, its Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="ce56-a139-ac70-ac65" name="Kustom grot blasta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b58f-f555-9fe8-5614" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a821-1290-9cd4-603a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="67bf-b512-550a-8d61" name="Kustom grot blasta" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="1d15-6f62-f2d4-9c10" name="Close combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c8-ba35-7e7e-771d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365f-302f-9009-fb99" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5d4d-2225-fcb7-367f" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="85d9-b2dd-1fe9-9c77" name="Hordeboss [11e convert]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="7df5-6062-a4be-7405" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink id="1f54-8e6d-466e-28a3" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="8d0f-1e81-7e06-9c31" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="81c0-8290-e227-464f" name="Hordeboss [11e convert]" hidden="false" targetId="6564-d9ce-b28c-b047" primary="false"/>
+        <categoryLink id="4399-4797-2a55-13c6" name="Crucible" hidden="false" targetId="e2bc-fc0c-1099-3e75" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d4e-57e3-978a-836e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+      <entryLinks>
+        <entryLink id="2f7a-5ad7-cbfc-e978" name="Warlord" hidden="false" collective="false" import="true" targetId="8b5-898c-f79b-5a9c" type="selectionEntry"/>
+        <entryLink id="636b-9da1-e2fd-10cc" name="Crusade" hidden="false" collective="false" import="true" targetId="87e9-baa9-52e2-5cce" type="selectionEntryGroup"/>
+        <entryLink id="a52b-dbd2-58d0-3f02" name="Specialisms" hidden="false" collective="false" import="true" targetId="e00c-414c-35f8-9b1f" type="selectionEntryGroup"/>
+        <entryLink id="352e-468f-0c58-a4b1" name="Ability" hidden="false" collective="false" import="true" targetId="b781-6d26-b665-9a2d" type="selectionEntryGroup"/>
+        <entryLink id="8343-bca5-6d27-f8f5" name="Weapons" hidden="false" collective="false" import="true" targetId="0f0d-43b3-8f04-c2cb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="5502-f709-27e7-e92d" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="4a39-db59-7c85-f6cb" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink id="990c-000b-1f96-7e51" name="Crucible" hidden="false" targetId="5ce6-a3cf-e871-f081" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile id="d95d-5a1e-6eec-d64a" name="Hordeboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"/>
+            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a3d-e430-3623-76eb" name="More Lads, More Swagger" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Improve this model's Leadership characteristic by 1 for every 5 models in this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ca03-f66a-7387-f527" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+- Boyz
+- Nobz</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="2ba9-e97a-909d-3ac5" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="7df5-6062-a4be-7405" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink id="1f54-8e6d-466e-28a3" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="8d0f-1e81-7e06-9c31" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="81c0-8290-e227-464f" name="Hordeboss [11e convert]" hidden="false" targetId="6564-d9ce-b28c-b047" primary="false"/>
+        <categoryLink id="4399-4797-2a55-13c6" name="Crucible" hidden="false" targetId="e2bc-fc0c-1099-3e75" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d4e-57e3-978a-836e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5502-f709-27e7-e92d" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="4a39-db59-7c85-f6cb" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink id="990c-000b-1f96-7e51" name="Crucible" hidden="false" targetId="5ce6-a3cf-e871-f081" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile id="d95d-5a1e-6eec-d64a" name="Hordeboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"/>
+            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="0e7f-9ade-9971-eeca" name="Warphead [11e convert]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="ab9c-ee18-62d4-e160" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink id="e291-91fd-3561-c59f" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="d7b3-cafa-9745-eb92" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="ec1c-6a49-e36f-7744" name="Warphead [11e convert]" hidden="false" targetId="3386-f4cc-0d18-20d9" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b539-cdfe-7993-5707" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="65.0"/>
+      </costs>
+      <entryLinks>
+        <entryLink id="32d8-b62d-c1ea-d379" name="Warlord" hidden="false" collective="false" import="true" targetId="8b5-898c-f79b-5a9c" type="selectionEntry"/>
+        <entryLink id="c162-b8d6-9721-699b" name="Crusade" hidden="false" collective="false" import="true" targetId="87e9-baa9-52e2-5cce" type="selectionEntryGroup"/>
+        <entryLink id="491d-6137-75d9-953a" name="Specialisms" hidden="false" collective="false" import="true" targetId="e00c-414c-35f8-9b1f" type="selectionEntryGroup"/>
+        <entryLink id="092d-3c23-6427-057d" name="Ability" hidden="false" collective="false" import="true" targetId="b781-6d26-b665-9a2d" type="selectionEntryGroup"/>
+        <entryLink id="0011-beaa-0235-d7d7" name="Weapons" hidden="false" collective="false" import="true" targetId="0f0d-43b3-8f04-c2cb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="477a-325f-f44a-859e" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="64ca-b07a-abe9-d562" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule"/>
+        <infoLink id="cec5-eb6f-1d26-2041" name="Hazardous" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+        <infoLink id="9e9c-4216-5cb6-a3bf" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink id="646c-8508-318e-8777" name="Crucible" hidden="false" targetId="5ce6-a3cf-e871-f081" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile id="f971-8ab9-5c3d-8b7d" name="Warphead" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"/>
+            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2053-cbc3-5fe2-9c02" name="Channellin' da Waaagh!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this unit contains 10 or more models, those weapons have the HAZARDOUS ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ef32-c8a1-0d2e-d98c" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+- Boyz
+- Nobz
+- Gretchin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="6a69-8e75-49ae-408f" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="7596-ca5d-0064-d22b" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink id="6b69-fd19-ea33-3518" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="3ce7-ff3e-cec9-ab42" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="8cd9-790a-6b0d-0084" name="Crucible" hidden="false" targetId="e2bc-fc0c-1099-3e75" primary="false"/>
+        <categoryLink id="0366-65b2-d970-79dc" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink id="7267-2203-6d9b-c8af" name="Grots [11e convert]" hidden="false" targetId="c7c7-ef60-67e3-def2" primary="false"/>
+        <categoryLink id="e25b-6354-1075-a3a3" name="Upstart Gretchin [11e convert]" hidden="false" targetId="004d-8909-7c60-0da1" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8bb-dc6e-feea-ffbf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+      <entryLinks>
+        <entryLink id="1aa7-04af-3a3d-a9ff" name="Warlord" hidden="false" collective="false" import="true" targetId="8b5-898c-f79b-5a9c" type="selectionEntry"/>
+        <entryLink id="34dc-8d12-1321-d055" name="Crusade" hidden="false" collective="false" import="true" targetId="87e9-baa9-52e2-5cce" type="selectionEntryGroup"/>
+        <entryLink id="32b4-ca36-2af1-923b" name="Specialisms" hidden="false" collective="false" import="true" targetId="e00c-414c-35f8-9b1f" type="selectionEntryGroup"/>
+        <entryLink id="57f8-46ac-30b0-c1c2" name="Ability" hidden="false" collective="false" import="true" targetId="b781-6d26-b665-9a2d" type="selectionEntryGroup"/>
+        <entryLink id="d081-d91d-131e-8201" name="Weapons" hidden="false" collective="false" import="true" targetId="0f0d-43b3-8f04-c2cb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="e29f-29ce-7334-adbe" name="Waaagh!" hidden="false" targetId="fac1-6afc-e5c9-35c2" type="rule"/>
+        <infoLink id="dab6-7310-b3b9-3d9a" name="Crucible" hidden="false" targetId="5ce6-a3cf-e871-f081" type="rule"/>
+        <infoLink id="1abd-40fa-48f4-538a" name="Infiltrators" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
+        <infoLink id="f601-addf-9788-a01b" name="Stealth" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+        <infoLink id="38e2-7941-0eb3-b8db" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile id="5591-d08b-4d47-3e8e" name="Upstart Gretchin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">7+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"/>
+            <characteristic name="Base" typeId="nr-base-size">~25mm</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb32-d9d2-24b9-1e1c" name="Skulkin' Grot" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32ef-e56c-e9e2-e065" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+- Gretchin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
