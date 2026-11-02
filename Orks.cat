@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="77" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3bba-af85-a93c-6bdf" name="Orks" revision="78" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FitalShell/@AbonShell" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="250" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks 2021" />
     <publication id="b556-84c7-4532-bca5" name="Da Red Gobbbo on Bounca" publisher="Da Red Gobbbo on Bounca Boxset" publicationDate="2021-11-13" />
@@ -18080,7 +18080,7 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="3a89d3e9-3df8-4996-8878-5453703830f0" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="fa8ca66f-7605-42a7-bb85-284d941b3367" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="true" />
@@ -18137,9 +18137,8 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         </selectionEntryGroup>
       </selectionEntryGroups>
     
-      <profiles><profile id="e851d8f8-99db-48ee-8f07-21b4da17ea6b" name="Trophy Hunters" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has +1 to **charge rolls**.</characteristic></characteristics></profile></profiles></selectionEntry>
+      <profiles><profile id="e851d8f8-99db-48ee-8f07-21b4da17ea6b" name="Trophy Hunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit has +1 to **charge rolls**.</characteristic></characteristics>
+          </profile></profiles></selectionEntry>
     
     <selectionEntry id="85d9-b2dd-1fe9-9c77" name="Hordeboss [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
@@ -18251,7 +18250,7 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       </profiles>
     </selectionEntry>
     
-    <selectionEntry id="3b35-92f5-bd1a-af8d" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3b35-92f5-bd1a-af8d" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="59ee9486-f2ff-455c-8367-67586df441a9" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
         <categoryLink id="4ca0ab18-5670-429b-8a47-820f863d6ec1" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
@@ -18262,45 +18261,20 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="30" /></costs>
       <infoLinks>
         <infoLink id="035b47f6-ba7d-4bf2-9c3e-dbc8862735ba" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" /></infoLinks>
-      <profiles><profile id="6f70f611-6cbb-4bd8-8fba-4443ed7fca5c" name="Bannernob" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">
-</characteristic>
-            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic></characteristics></profile><profile id="f2fe4f8f-cc17-43aa-89ee-e5010b0aa414" name="Waaagh! Banner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has +1 to **charge rolls**.</characteristic></characteristics></profile><profile id="4e001062-5ce9-4a53-a6a5-b5e4b4081d85" name="Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: 
+      <profiles><profile id="6f70f611-6cbb-4bd8-8fba-4443ed7fca5c" name="Bannernob" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic></characteristics>
+          </profile><profile id="f2fe4f8f-cc17-43aa-89ee-e5010b0aa414" name="Waaagh! Banner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit has +1 to **charge rolls**.</characteristic></characteristics>
+          </profile><profile id="4e001062-5ce9-4a53-a6a5-b5e4b4081d85" name="Support" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units: 
 - **BOYZ**
 - **NOBZ**
-</characteristic></characteristics></profile></profiles>
+</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntryGroups><selectionEntryGroup id="c8289202-96ac-4148-a332-621d2dce910d" name="Wargear" hidden="false" collective="false" import="true">
           <selectionEntries><selectionEntry id="002811ba-2e8d-446d-b0fd-fb8226773917" name="Kustom Choppa" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="6fd3d75d-3d5d-40d2-816b-e47b219a3f58" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="2454ffc4-cd6a-4c84-9723-a51fb3150508" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="946f0fdd-6ee7-4485-a32b-aff3f6fa748b" name="Kustom Choppa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"></characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="845a76e7-c0cb-4017-8adc-126524a922a2" name="Shoota" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="d17639b4-a446-4407-b032-636d9d7319d8" name="Shoota" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18"</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
-    <selectionEntry id="78a7-cf35-aa8d-c420" name="Big Mek Dakkarig [11e convert]" hidden="false" collective="false" import="true" type="unit">
+              <constraints><constraint id="6fd3d75d-3d5d-40d2-816b-e47b219a3f58" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="2454ffc4-cd6a-4c84-9723-a51fb3150508" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="946f0fdd-6ee7-4485-a32b-aff3f6fa748b" name="Kustom Choppa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 4; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic></characteristics>
+                  </profile></profiles></selectionEntry><selectionEntry id="845a76e7-c0cb-4017-8adc-126524a922a2" name="Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="d17639b4-a446-4407-b032-636d9d7319d8" name="Shoota" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 2; BS: 5+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1</characteristic></characteristics>
+                  </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+    <selectionEntry id="78a7-cf35-aa8d-c420" name="Big Mek Dakkarig [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="0bc6c138-e3c5-429f-9a7f-552cfe9b74d6" name="Faction: Orks" hidden="false" targetId="1c58-037f-7b58-1223" primary="false" />
         <categoryLink id="f5b527fb-784c-412f-a089-71ecca8495ff" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false" />
@@ -18312,50 +18286,19 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="160" /></costs>
       <infoLinks>
         <infoLink id="df308dd3-06bb-4f82-a449-db2ab12a932d" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" /></infoLinks>
-      <profiles><profile id="0c54cb7e-3cfe-4650-a8a1-8f6ebc50b882" name="Big Mek Dakkarig" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">5+</characteristic>
-            <characteristic name="Base" typeId="nr-base-size">90mm</characteristic></characteristics></profile><profile id="6183ae63-e0ce-4b2c-acdd-1147f3e4b5be" name="Even More Dakka" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.</characteristic></characteristics></profile><profile id="0068e6ac-8ea6-4358-9472-572ab8b74ce4" name="Blitz Dem Gitz!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, if this unit's Blitzkannon weapon targets a unit (excluding **MONSTER/VEHICLE** units), that weapon has +6 **A**.</characteristic></characteristics></profile></profiles>
+      <profiles><profile id="0c54cb7e-3cfe-4650-a8a1-8f6ebc50b882" name="Big Mek Dakkarig" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">8"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">11</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic></characteristics>
+          </profile><profile id="6183ae63-e0ce-4b2c-acdd-1147f3e4b5be" name="Even More Dakka" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.</characteristic></characteristics>
+          </profile><profile id="0068e6ac-8ea6-4358-9472-572ab8b74ce4" name="Blitz Dem Gitz!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, if this unit's Blitzkannon weapon targets a unit (excluding **MONSTER/VEHICLE** units), that weapon has +6 **A**.</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntryGroups><selectionEntryGroup id="97849a0a-9661-4e43-8cfd-16835ce5a020" name="Wargear" hidden="false" collective="false" import="true">
           <selectionEntries><selectionEntry id="47fc4851-9abb-4e02-ad98-cfbde5b764c8" name="Stompy Feet" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="bebbef53-e0df-4800-8326-e8dd8ba061fc" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b1868c21-477e-4001-93b9-2f4c48936440" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="cf7027a5-d1ac-4aa2-a334-7e8516e8c67f" name="Stompy Feet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"></characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="030a0c6d-33e8-4642-bf29-c633d09baffb" name="Blitzkannon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="c09d576d-04e6-4579-a93f-9f9eb45bd999" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="ca7e74a0-32d9-4faa-a98c-a1c1d59e06bd" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="0bdb476b-6792-42a8-8cea-fe4235d41986" name="Blitzkannon" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">IGNORES COVER, LETHAL HITS: non-MONSTER/VEHICLE</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="5fe8015a-ee71-4c22-95a7-822bfee0b680" name="Multi-busta Launcha" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="d3289912-2c96-464b-80a3-883413e15617" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="8342c020-a880-4c08-8033-103cf0923630" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="fce55f0d-50d7-4df5-84ca-2ebc85663999" name="Multi-busta Launcha" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">IGNORES COVER, LETHAL HITS</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
-    <selectionEntry id="dde2-ca42-e3bc-2ef6" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" type="unit">
+              <constraints><constraint id="bebbef53-e0df-4800-8326-e8dd8ba061fc" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b1868c21-477e-4001-93b9-2f4c48936440" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="cf7027a5-d1ac-4aa2-a334-7e8516e8c67f" name="Stompy Feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 4; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic></characteristics>
+                  </profile></profiles></selectionEntry><selectionEntry id="030a0c6d-33e8-4642-bf29-c633d09baffb" name="Blitzkannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint id="c09d576d-04e6-4579-a93f-9f9eb45bd999" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="ca7e74a0-32d9-4faa-a98c-a1c1d59e06bd" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="0bdb476b-6792-42a8-8cea-fe4235d41986" name="Blitzkannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 8; BS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">IGNORES COVER, LETHAL HITS: non-MONSTER/VEHICLE</characteristic></characteristics>
+                  </profile></profiles></selectionEntry><selectionEntry id="5fe8015a-ee71-4c22-95a7-822bfee0b680" name="Multi-busta Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint id="d3289912-2c96-464b-80a3-883413e15617" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="8342c020-a880-4c08-8033-103cf0923630" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="fce55f0d-50d7-4df5-84ca-2ebc85663999" name="Multi-busta Launcha" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 6; BS: 5+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">IGNORES COVER, LETHAL HITS</characteristic></characteristics>
+                  </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+    <selectionEntry id="dde2-ca42-e3bc-2ef6" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="1d78173e-c901-4fcd-ab36-272645ac8b8d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
         <categoryLink id="c8ba0108-12e8-45c3-a2d0-e5a61de6a1a7" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
@@ -18370,45 +18313,21 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <infoLink id="d31fc530-84ac-4bfe-b4bc-3d20e69ce6ee" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="94c0ee04-8122-4e85-b79a-58f670cd08c2" name="Leader" hidden="false" targetId="ca03-f66a-7387-f527" type="profile" />
         <infoLink id="343790fb-ad60-4b8f-afc9-7a6c295bafb2" name="More Dakka" hidden="false" targetId="8ee5-5b6f-dc47-6f48" type="profile" /></infoLinks>
-      <profiles><profile id="5b970162-ad95-4d10-aead-612ddd04c19c" name="Big Mek with Shokk Attack Gun" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic></characteristics></profile><profile id="89d096e6-3558-4a14-8024-5d99e0ab5c35" name="Support Shokka" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3" of a friendly **ORKS INFANTRY** unit (excluding **BIG MEK WITH SHOKK ATTACK GUN** units), this model has **Lone Operative**.</characteristic></characteristics></profile><profile id="755f6cff-56d6-49b6-a1bf-7cd68f8777b0" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+      <profiles><profile id="5b970162-ad95-4d10-aead-612ddd04c19c" name="Big Mek with Shokk Attack Gun" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic></characteristics>
+          </profile><profile id="89d096e6-3558-4a14-8024-5d99e0ab5c35" name="Support Shokka" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While this model is within 3" of a friendly **ORKS INFANTRY** unit (excluding **BIG MEK WITH SHOKK ATTACK GUN** units), this model has **Lone Operative**.</characteristic></characteristics>
+          </profile><profile id="755f6cff-56d6-49b6-a1bf-7cd68f8777b0" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units:
 - **BOYZ**
 - **MEK GUNZ**
 - **NOBZ**
-- **TANKBUSTAS**</characteristic></characteristics></profile></profiles>
+- **TANKBUSTAS**</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntryGroups><selectionEntryGroup id="5be4275c-0503-41e9-ab0e-c82d22456994" name="Wargear" hidden="false" collective="false" import="true">
           <selectionEntries><selectionEntry id="666b6732-0502-4639-a4bc-e4e8590e7d05" name="Shokk Attack Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="813b251e-3a67-4e36-93d7-1a9e1db11499" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="93cc6d11-ecfc-4742-898a-8ee97dc3939e" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="a8674c5a-84d8-4d6b-a4af-7704e1965fbf" name="Shokk Attack Gun" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">60"</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">BLAST 1, HEAVY</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="b551ee8f-5c80-453d-b351-13946013a2d2" name="Big Mek's Toolz" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="8ee473df-9ba1-462a-9ead-1b813ddb5a82" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b80bfdd4-60c4-4e46-a2cf-bd55a5fa4eee" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="41fb0df6-649e-42b1-84ca-9b55e082bbc4" name="Big Mek's Toolz" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"></characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
-    <selectionEntry id="181e-be55-d9c6-2b69" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" type="unit">
+              <constraints><constraint id="813b251e-3a67-4e36-93d7-1a9e1db11499" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="93cc6d11-ecfc-4742-898a-8ee97dc3939e" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="a8674c5a-84d8-4d6b-a4af-7704e1965fbf" name="Shokk Attack Gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: D3+3; BS: 5+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6+1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">BLAST 1, HEAVY</characteristic></characteristics>
+                  </profile></profiles></selectionEntry><selectionEntry id="b551ee8f-5c80-453d-b351-13946013a2d2" name="Big Mek's Toolz" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint id="8ee473df-9ba1-462a-9ead-1b813ddb5a82" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b80bfdd4-60c4-4e46-a2cf-bd55a5fa4eee" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="41fb0df6-649e-42b1-84ca-9b55e082bbc4" name="Big Mek's Toolz" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 4; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic></characteristics>
+                  </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+    <selectionEntry id="181e-be55-d9c6-2b69" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="bba544c6-8206-459c-9f13-c9410d4f371d" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="501d126e-c2ed-41aa-9e83-5876faab6c5c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
@@ -18420,44 +18339,20 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       <infoLinks>
         <infoLink id="fb5d796a-83c6-4f6d-9b0f-2a636920715e" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="d9b0fda6-210b-4c84-bb17-c2972c7ba300" name="Support" hidden="false" targetId="4e001062-5ce9-4a53-a6a5-b5e4b4081d85" type="profile" /></infoLinks>
-      <profiles><profile id="9dd00cb0-c1ea-476f-84d3-2e3f6c3610da" name="Bigboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic></characteristics></profile><profile id="5d9c7e06-70c8-4298-8dbe-d86780dff725" name="Sumfin’ to Prove" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit's melee attacks have +1 to **hit rolls**.</characteristic></characteristics></profile><profile id="68f26d30-8ecd-4667-9b13-21cf39b55e92" name="Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: 
+      <profiles><profile id="9dd00cb0-c1ea-476f-84d3-2e3f6c3610da" name="Bigboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic></characteristics>
+          </profile><profile id="5d9c7e06-70c8-4298-8dbe-d86780dff725" name="Sumfin’ to Prove" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit's melee attacks have +1 to **hit rolls**.</characteristic></characteristics>
+          </profile><profile id="68f26d30-8ecd-4667-9b13-21cf39b55e92" name="Support" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units: 
 - **BOYZ**
 - **BREAKA BOYZ**
-- **NOBZ**</characteristic></characteristics></profile></profiles>
+- **NOBZ**</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntryGroups><selectionEntryGroup id="e0757916-1b64-46c0-9d7b-ed4cafff1bcd" name="Wargear" hidden="false" collective="false" import="true">
           <selectionEntries><selectionEntry id="0290aac6-a65d-49fa-b5f7-44231dfa20b7" name="Big Choppa" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints><constraint id="629e2726-06c7-4069-b254-c1f62914bfb5" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="45b4f741-e1d2-495e-9874-013698bec9bf" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="6552908a-9a5d-4308-b03e-1a438e038311" name="Big Choppa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">PRECISION</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="be986306-043f-4f69-9ccb-e1175cad6ff8" name="Slugga" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="572e773a-64ca-4ecb-a1f7-c1bdd9814252" name="Slugga" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">CLOSE-QUARTERS, LETHAL HITS: non-MONSTER/VEHICLE</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
-    <selectionEntry id="3e53-68fa-a7b4-d6c6" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" type="unit">
+              <constraints><constraint id="629e2726-06c7-4069-b254-c1f62914bfb5" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="45b4f741-e1d2-495e-9874-013698bec9bf" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="6552908a-9a5d-4308-b03e-1a438e038311" name="Big Choppa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 5; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">PRECISION</characteristic></characteristics>
+                  </profile></profiles></selectionEntry><selectionEntry id="be986306-043f-4f69-9ccb-e1175cad6ff8" name="Slugga" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="572e773a-64ca-4ecb-a1f7-c1bdd9814252" name="Slugga" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 1; BS: 5+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">CLOSE-QUARTERS, LETHAL HITS: non-MONSTER/VEHICLE</characteristic></characteristics>
+                  </profile></profiles></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+    <selectionEntry id="3e53-68fa-a7b4-d6c6" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="ec890553-c230-4fcd-8f8f-4db4a5939d94" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
         <categoryLink id="31a5c47a-ea9d-43f4-a60d-be5833b084dd" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
@@ -18470,40 +18365,16 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="40" /></costs>
       <infoLinks>
         <infoLink id="e73abdfd-cdb3-435c-b334-b403853ce1e8" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" /></infoLinks>
-      <profiles><profile id="fd491459-dace-49f4-bade-3e8045c6e215" name="Grotmas Gitz [Legends]" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">-</characteristic></characteristics></profile><profile id="18927299-8686-4cbd-8f23-379199112281" name="Bludgeoning Cheer" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Normal, Advance, Fall Back or Charge move, select one enemy unit within 3" of this model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. That enemy unit must then take a Battle-shock test.</characteristic></characteristics></profile><profile id="538c8c48-a79d-4622-abd8-300be23d8372" name="Gifts for All! (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a GRETCHIN unit is within 6" of this model, that unit’s Thievin’ Scavengers ability is successful on D6 rolls of 2+, instead of rolls of 4+.</characteristic></characteristics></profile></profiles>
+      <profiles><profile id="fd491459-dace-49f4-bade-3e8045c6e215" name="Grotmas Gitz [Legends]" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">10"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic></characteristics>
+          </profile><profile id="18927299-8686-4cbd-8f23-379199112281" name="Bludgeoning Cheer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model ends a Normal, Advance, Fall Back or Charge move, select one enemy unit within 3" of this model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. That enemy unit must then take a Battle-shock test.</characteristic></characteristics>
+          </profile><profile id="538c8c48-a79d-4622-abd8-300be23d8372" name="Gifts for All! (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a GRETCHIN unit is within 6" of this model, that unit’s Thievin’ Scavengers ability is successful on D6 rolls of 2+, instead of rolls of 4+.</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntries><selectionEntry id="27d026b7-b8d1-450b-bbc7-729ef1ea6297" name="Bludgeoning bag of gifts" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="3799bad9-e45d-4c4f-b170-2cc7b6cc21ef" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="14c600a2-7d3f-422e-a331-a96fc490816a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="4514c5af-0b1e-4469-aeca-ce96442d8055" name="Bludgeoning bag of gifts" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"></characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="8be67b01-d2ce-4b39-84e6-97e3ea0b8039" name="Massive gift-filled gob" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="6a84733a-c06d-418f-b4d0-49c7f3e755f2" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="15ddb7c3-439d-45eb-9fbb-d96aa410be0f" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="a9873736-f21a-4db4-8a6c-6df29d18d12a" name="Massive gift-filled gob" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="80c4-14b2-d02d-d289" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" type="unit">
+          <constraints><constraint id="3799bad9-e45d-4c4f-b170-2cc7b6cc21ef" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="14c600a2-7d3f-422e-a331-a96fc490816a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="4514c5af-0b1e-4469-aeca-ce96442d8055" name="Bludgeoning bag of gifts" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 3; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="8be67b01-d2ce-4b39-84e6-97e3ea0b8039" name="Massive gift-filled gob" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="6a84733a-c06d-418f-b4d0-49c7f3e755f2" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="15ddb7c3-439d-45eb-9fbb-d96aa410be0f" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="a9873736-f21a-4db4-8a6c-6df29d18d12a" name="Massive gift-filled gob" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 3; WS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Extra Attacks</characteristic></characteristics>
+              </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
+    <selectionEntry id="80c4-14b2-d02d-d289" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="a5e1b98a-978f-4033-8143-5259b8a69021" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
         <categoryLink id="882df09d-86f2-465c-96eb-640d0cfbeb28" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
@@ -18518,70 +18389,24 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       <infoLinks>
         <infoLink id="16a8f395-e3bb-40ac-9c62-4c15f7affa93" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="03534f3e-334b-48c1-b27b-b503814c89ae" name="Leader" hidden="false" targetId="ca03-f66a-7387-f527" type="profile" /></infoLinks>
-      <profiles><profile id="4ab3f3e7-6a3a-480a-ab93-a2dd945693cc" name="Nazdreg's Know-wotz" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- This unit has **Deep Strike**
-- This unit's ranged attacks have **[IGNORES COVER]**.</characteristic></characteristics></profile><profile id="1e37393f-983a-40ef-a2b2-ad7c825f7dcc" name="Nazdreg" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">5+</characteristic>
-            <characteristic name="Base" typeId="nr-base-size">60mm</characteristic></characteristics></profile><profile id="21cce0d7-a73a-423a-99f9-eaea0567154b" name="Supreme Kunnin' (Once per phase, per army)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent's Movement phase, when an enemy unit ends a move within 8" of this unit, if this unit is **unengaged**, this unit can:
+      <profiles><profile id="4ab3f3e7-6a3a-480a-ab93-a2dd945693cc" name="Nazdreg's Know-wotz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- This unit has **Deep Strike**
+- This unit's ranged attacks have **[IGNORES COVER]**.</characteristic></characteristics>
+          </profile><profile id="1e37393f-983a-40ef-a2b2-ad7c825f7dcc" name="Nazdreg" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">5"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic></characteristics>
+          </profile><profile id="21cce0d7-a73a-423a-99f9-eaea0567154b" name="Supreme Kunnin' (Once per phase, per army)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your opponent's Movement phase, when an enemy unit ends a move within 8" of this unit, if this unit is **unengaged**, this unit can:
 - Make a **normal move** of up to D6".
-- &lt;ins&gt;Or:&lt;/ins&gt; If this unit is **riled up**, make a **normal move** of up to 5".</characteristic></characteristics></profile><profile id="0cb3f266-038f-4aa4-a9b2-c24ddfec9474" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
-- **MEGANOBZ**</characteristic></characteristics></profile></profiles>
+- &lt;ins&gt;Or:&lt;/ins&gt; If this unit is **riled up**, make a **normal move** of up to 5".</characteristic></characteristics>
+          </profile><profile id="0cb3f266-038f-4aa4-a9b2-c24ddfec9474" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following unit:
+- **MEGANOBZ**</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntries><selectionEntry id="d9ec6393-a7f5-41be-bf70-5d5d9cf6d0b8" name="Moonchewa" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="ec159036-6ca9-48cf-911f-73a9460ba0fa" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="6e2aead8-0137-485d-9fb4-6a5b1b520e2a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="398aeef2-1011-4b62-a0a9-7cf81477cf73" name="Moonchewa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">CLEAVE 1, TWIN-LINKED</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="88c48b22-51ae-41af-b27f-66ab1db7e94f" name="Kustom Blasta X" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="dd38ab5c-498a-40ce-84b4-a56cd6fab925" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="20bf7c30-084e-41d3-9122-c9cf1cf6d3d1" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="982300d9-c5b5-4ea3-8f15-616e1dabb666" name="Kustom Blasta X" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">CLEAVE 1, EXTRA ATTACKS</characteristic></characteristics></profile><profile id="ac44c5eb-1bed-4fa0-aafe-8e2567e17496" name="Kustom Blasta X - Skorcha" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">BLAST 1, TORRENT</characteristic></characteristics></profile><profile id="a38b2dc0-6430-461a-aa01-129a6592ff37" name="Kustom Blasta X - Gatler" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">HAZARDOUS</characteristic></characteristics></profile><profile id="f4d493a2-fff7-40cd-84b1-69e50ef7ed35" name="Kustom Blasta X - Shoota" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="2ab7-ab71-0af4-5d39" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" type="unit">
+          <constraints><constraint id="ec159036-6ca9-48cf-911f-73a9460ba0fa" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="6e2aead8-0137-485d-9fb4-6a5b1b520e2a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="398aeef2-1011-4b62-a0a9-7cf81477cf73" name="Moonchewa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 5; WS: 2+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">CLEAVE 1, TWIN-LINKED</characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="88c48b22-51ae-41af-b27f-66ab1db7e94f" name="Kustom Blasta X" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="dd38ab5c-498a-40ce-84b4-a56cd6fab925" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="20bf7c30-084e-41d3-9122-c9cf1cf6d3d1" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="982300d9-c5b5-4ea3-8f15-616e1dabb666" name="Kustom Blasta X" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 6; WS: 2+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">CLEAVE 1, EXTRA ATTACKS</characteristic></characteristics>
+              </profile><profile id="ac44c5eb-1bed-4fa0-aafe-8e2567e17496" name="Kustom Blasta X - Skorcha" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 3; BS: -</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">BLAST 1, TORRENT</characteristic></characteristics>
+              </profile><profile id="a38b2dc0-6430-461a-aa01-129a6592ff37" name="Kustom Blasta X - Gatler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 6; BS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">HAZARDOUS</characteristic></characteristics>
+              </profile><profile id="f4d493a2-fff7-40cd-84b1-69e50ef7ed35" name="Kustom Blasta X - Shoota" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 4; BS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2</characteristic></characteristics>
+              </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
+    <selectionEntry id="2ab7-ab71-0af4-5d39" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="f006e1ec-6213-4342-989b-ce04bceed87c" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
         <categoryLink id="08e06b25-ef33-4304-802d-7d0e03fdfb2c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
@@ -18595,70 +18420,23 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="200" /></costs>
       <infoLinks>
         <infoLink id="e7870917-cc92-4f6c-a58a-5232d449f287" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" /></infoLinks>
-      <profiles><profile id="6a6adbc0-678e-4a54-8a03-e67fc637351a" name="Wazdakka Gutsmek" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">4+</characteristic>
-            <characteristic name="Base" typeId="nr-base-size">120x92mm</characteristic></characteristics></profile><profile id="fa720e9e-4b7a-4516-bdf1-d45c0e127015" name="Turbo Engine" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is selected to make an **advance/fall-back move**, that move does not prevent this unit from being **eligible to declare a charge**.</characteristic></characteristics></profile><profile id="09b63a44-0001-4d51-8d1d-6acc10d0d19e" name="Pulse Jet" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Movement phase, when this unit is **selected to move**, if this unit is **unengaged**, this unit can make a **pulse jet move**.</characteristic></characteristics></profile><profile id="eeca12ef-8d17-403a-8aca-5a8c8457842d" name="Shokk Attack Engine" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.</characteristic></characteristics></profile><profile id="3f0accd4-6ca6-4284-8424-9397fc811533" name="Full Throttle" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one Throttlerokkit Shokka Engine ability. This unit has that ability until the start of your next Command phase.</characteristic></characteristics></profile></profiles>
+      <profiles><profile id="6a6adbc0-678e-4a54-8a03-e67fc637351a" name="Wazdakka Gutsmek" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">14"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic></characteristics>
+          </profile><profile id="fa720e9e-4b7a-4516-bdf1-d45c0e127015" name="Turbo Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit is selected to make an **advance/fall-back move**, that move does not prevent this unit from being **eligible to declare a charge**.</characteristic></characteristics>
+          </profile><profile id="09b63a44-0001-4d51-8d1d-6acc10d0d19e" name="Pulse Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Movement phase, when this unit is **selected to move**, if this unit is **unengaged**, this unit can make a **pulse jet move**.</characteristic></characteristics>
+          </profile><profile id="eeca12ef-8d17-403a-8aca-5a8c8457842d" name="Shokk Attack Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Command phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.</characteristic></characteristics>
+          </profile><profile id="3f0accd4-6ca6-4284-8424-9397fc811533" name="Full Throttle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Command phase, select one Throttlerokkit Shokka Engine ability. This unit has that ability until the start of your next Command phase.</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntries><selectionEntry id="3bc752cf-0f4c-4e80-a952-f9f6d3570880" name="Fixit's Wrench" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="b7ccbf1f-caf0-47c0-a93a-c11b25ecefe8" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="7c874a24-89ba-41cf-ba8b-98bce8f53112" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="366bad9e-1b11-47ad-86c1-08b223ee7b79" name="Fixit's Wrench" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">EXTRA ATTACKS</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="327f7715-e808-40ff-bb21-70f60c28a9bd" name="Psyko-gatler" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="74fbb062-a6c7-4a4e-9374-12cc071d9fcc" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="958333e2-0c80-407a-8ffd-31ebe031b370" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="3a8e7c45-37a9-4547-bd75-7394f4632521" name="Psyko-gatler" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">12</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">ASSAULT, LETHAL HITS: non-MONSTER/VEHICLE, SUSTAINED HITS 1</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="e5cb52b1-d6d7-4d23-b333-4808a944562d" name="Grabba Dragga" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="57d4d8c6-c7e9-49fe-8c34-48aa092164c1" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="deb92914-e3e6-4265-b082-a4008c2e623f" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="1ea7224a-2e53-41cd-9653-20e1b010704c" name="Grabba Dragga" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">CLEAVE 2, LANCE</characteristic></characteristics></profile><profile id="f77e592f-3116-40b5-997b-ba3461c039a5" name="Grabba Dragga" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">ASSAULT, PRECISION</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="b5c5db4a-4b94-4486-b6e5-7c6bc5467607" name="Speeding Bulk and Flaming Exhaust" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="7f71139c-a4be-4fc8-a637-fe2da2632424" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="81f8b45a-c20d-4aa6-b970-f1f2e99bc99a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="b0269f8b-605c-4cca-a87f-a2d3fec9baa5" name="Speeding Bulk and Flaming Exhaust" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">CLEAVE 1, EXTRA ATTACKS</characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="54de-2004-bbc1-3ac6" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="unit">
+          <constraints><constraint id="b7ccbf1f-caf0-47c0-a93a-c11b25ecefe8" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="7c874a24-89ba-41cf-ba8b-98bce8f53112" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="366bad9e-1b11-47ad-86c1-08b223ee7b79" name="Fixit's Wrench" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 1; WS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">EXTRA ATTACKS</characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="327f7715-e808-40ff-bb21-70f60c28a9bd" name="Psyko-gatler" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="74fbb062-a6c7-4a4e-9374-12cc071d9fcc" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="958333e2-0c80-407a-8ffd-31ebe031b370" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="3a8e7c45-37a9-4547-bd75-7394f4632521" name="Psyko-gatler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 12; BS: 4+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">ASSAULT, LETHAL HITS: non-MONSTER/VEHICLE, SUSTAINED HITS 1</characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="e5cb52b1-d6d7-4d23-b333-4808a944562d" name="Grabba Dragga" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="57d4d8c6-c7e9-49fe-8c34-48aa092164c1" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="min" /><constraint id="deb92914-e3e6-4265-b082-a4008c2e623f" field="selections" scope="parent" value="1" shared="true" includeChildSelections="false" type="max" /></constraints><profiles><profile id="1ea7224a-2e53-41cd-9653-20e1b010704c" name="Grabba Dragga" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 6; WS: 2+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">CLEAVE 2, LANCE</characteristic></characteristics>
+              </profile><profile id="f77e592f-3116-40b5-997b-ba3461c039a5" name="Grabba Dragga" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 1; BS: 2+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">ASSAULT, PRECISION</characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="b5c5db4a-4b94-4486-b6e5-7c6bc5467607" name="Speeding Bulk and Flaming Exhaust" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="7f71139c-a4be-4fc8-a637-fe2da2632424" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="81f8b45a-c20d-4aa6-b970-f1f2e99bc99a" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="b0269f8b-605c-4cca-a87f-a2d3fec9baa5" name="Speeding Bulk and Flaming Exhaust" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 3; WS: 2+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">CLEAVE 1, EXTRA ATTACKS</characteristic></characteristics>
+              </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
+    <selectionEntry id="54de-2004-bbc1-3ac6" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="afb72c8a-ede5-4eb3-8d10-7154f0f36848" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
         <categoryLink id="e0f63b88-f5d4-4a8e-8c0f-b7945e200cca" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
@@ -18671,24 +18449,14 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       <infoLinks>
         <infoLink id="584e1d7f-4141-4cda-b3e5-fb7b512c0d46" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="b976cdb1-66b1-4249-8027-6a0b0feb8cbe" name="Leader" hidden="false" targetId="ca03-f66a-7387-f527" type="profile" /></infoLinks>
-      <profiles><profile id="d02c016b-95a1-4119-b48f-8c11738b3be2" name="Warphead" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic></characteristics></profile><profile id="050fe46b-d8a9-4da6-922b-0f932cb5b30f" name="Channellin' da Waaagh!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this unit contains 10 or more models, those weapons have the **[HAZARDOUS]** ability.</characteristic></characteristics></profile><profile id="fcd01aed-00a5-4090-ac11-385b399c5329" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+      <profiles><profile id="d02c016b-95a1-4119-b48f-8c11738b3be2" name="Warphead" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic></characteristics>
+          </profile><profile id="050fe46b-d8a9-4da6-922b-0f932cb5b30f" name="Channellin' da Waaagh!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this unit contains 10 or more models, those weapons have the **[HAZARDOUS]** ability.</characteristic></characteristics>
+          </profile><profile id="fcd01aed-00a5-4090-ac11-385b399c5329" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units:
 - **^^Boyz^^**
 - **^^Nobz^^**
-- **^^Gretchin^^**</characteristic></characteristics></profile></profiles></selectionEntry>
-    <selectionEntry id="6610-3cb7-dc72-8852" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" type="unit">
+- **^^Gretchin^^**</characteristic></characteristics>
+          </profile></profiles></selectionEntry>
+    <selectionEntry id="6610-3cb7-dc72-8852" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="80d078c9-77b8-4982-bc8a-e677bd4960f8" name="Epic Hero" hidden="false" targetId="66d2ea49-06d1-4123-8d7a-f764db5d0a7a" primary="true" />
         <categoryLink id="4307ea36-4bce-48e2-aca3-81bc95ad437e" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false" />
@@ -18699,40 +18467,16 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="40" /></costs>
       <infoLinks>
         <infoLink id="fcd3d5f5-47cc-49f1-848b-3fe62b8bb582" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" /></infoLinks>
-      <profiles><profile id="dff67296-4054-467a-8e01-8192251bef2c" name="Da Red Gobbo" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc">5+</characteristic>
-            <characteristic name="Base" typeId="nr-base-size">50mm</characteristic></characteristics></profile><profile id="d89ae15d-fe45-47c9-95ce-9b5ac92a00f3" name="Explosive Snowballs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once in each of your Shooting phases, you can target this unit with the Grenades stratagem for 0CP. After resolving this stratagem, this unit can make a Normal move of up to 6".</characteristic></characteristics></profile><profile id="94699019-68d3-4e27-a1af-6b5b9365458a" name="A-bomb-inable Snowman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this model is destroyed, its Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6.</characteristic></characteristics></profile></profiles>
+      <profiles><profile id="dff67296-4054-467a-8e01-8192251bef2c" name="Da Red Gobbo" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic></characteristics>
+          </profile><profile id="d89ae15d-fe45-47c9-95ce-9b5ac92a00f3" name="Explosive Snowballs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once in each of your Shooting phases, you can target this unit with the Grenades stratagem for 0CP. After resolving this stratagem, this unit can make a Normal move of up to 6".</characteristic></characteristics>
+          </profile><profile id="94699019-68d3-4e27-a1af-6b5b9365458a" name="A-bomb-inable Snowman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, its Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6.</characteristic></characteristics>
+          </profile></profiles>
       <selectionEntries><selectionEntry id="e58477b1-c8e2-428e-9630-4fb30297182b" name="Kustom grot blasta" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="cd6d7f0e-bfc5-40f0-890b-2b008fde4058" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="ac0ba609-862f-4ad5-98f4-de0c2930da64" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="d5555799-c6f4-4c24-b327-30cb34181b7a" name="Kustom grot blasta" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry id="b48b07a8-eaf7-4f9e-b67f-0ad335cac984" name="Close combat weapon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints><constraint id="88e70da5-831b-4eb1-8782-3eaa809b31bc" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b21e69fa-1c83-43c9-beff-ed2177486218" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="72a8b50e-4cf5-4d43-abf9-1957c0938db6" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"></characteristic></characteristics></profile></profiles></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="2ba9-e97a-909d-3ac5" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="unit">
+          <constraints><constraint id="cd6d7f0e-bfc5-40f0-890b-2b008fde4058" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="ac0ba609-862f-4ad5-98f4-de0c2930da64" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="d5555799-c6f4-4c24-b327-30cb34181b7a" name="Kustom grot blasta" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: D3; BS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Pistol</characteristic></characteristics>
+              </profile></profiles></selectionEntry><selectionEntry id="b48b07a8-eaf7-4f9e-b67f-0ad335cac984" name="Close combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints><constraint id="88e70da5-831b-4eb1-8782-3eaa809b31bc" field="selections" scope="parent" value="1" shared="true" type="min" /><constraint id="b21e69fa-1c83-43c9-beff-ed2177486218" field="selections" scope="parent" value="1" shared="true" type="max" /></constraints><profiles><profile id="72a8b50e-4cf5-4d43-abf9-1957c0938db6" name="Close combat weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon"><characteristics><characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic><characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">A: 3; WS: 3+</characteristic><characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic><characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic><characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic><characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic></characteristics>
+              </profile></profiles></selectionEntry></selectionEntries></selectionEntry>
+    <selectionEntry id="2ba9-e97a-909d-3ac5" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="8766f75b-6679-4bc3-b34e-3d8900ef3b53" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
         <categoryLink id="a08d8012-6e60-44a6-9a65-7a9375cc38ac" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
@@ -18745,23 +18489,13 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       <infoLinks>
         <infoLink id="0bfbd986-4fc8-47c8-8980-8b1a6444f57e" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="64e6e682-83c2-4f05-bf46-370005d20068" name="Leader" hidden="false" targetId="ca03-f66a-7387-f527" type="profile" /></infoLinks>
-      <profiles><profile id="6113dda4-0cec-409c-beff-5f6f8fa3341f" name="Hordeboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">40mm</characteristic></characteristics></profile><profile id="5f3de88d-3367-4038-b322-3ee062315f01" name="More Lads, More Swagger" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Improve this model's Leadership characteristic by 1 for every 5 models in this unit.</characteristic></characteristics></profile><profile id="f7dbb8c4-0520-4e3a-8e4f-b349d2239d9d" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+      <profiles><profile id="6113dda4-0cec-409c-beff-5f6f8fa3341f" name="Hordeboss" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic></characteristics>
+          </profile><profile id="5f3de88d-3367-4038-b322-3ee062315f01" name="More Lads, More Swagger" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model's Leadership characteristic by 1 for every 5 models in this unit.</characteristic></characteristics>
+          </profile><profile id="f7dbb8c4-0520-4e3a-8e4f-b349d2239d9d" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units:
 - **^^Boyz^^**
-- **^^Nobz^^**</characteristic></characteristics></profile></profiles></selectionEntry>
-    <selectionEntry id="6a69-8e75-49ae-408f" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="unit">
+- **^^Nobz^^**</characteristic></characteristics>
+          </profile></profiles></selectionEntry>
+    <selectionEntry id="6a69-8e75-49ae-408f" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="4b5da113-0f90-4d3a-828c-994e10d2b956" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="true" />
         <categoryLink id="447f14f5-2768-4cf9-825f-85be4902f865" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false" />
@@ -18775,21 +18509,11 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
       <infoLinks>
         <infoLink id="d6b127ce-7bed-4bcd-855e-0663308de2a8" name="Waaagh!" hidden="false" targetId="e4bd-a449-ce9b-c2ad" type="rule" />
         <infoLink id="b5ce2edf-b74a-4242-a651-475dda7a3284" name="Leader" hidden="false" targetId="ca03-f66a-7387-f527" type="profile" /></infoLinks>
-      <profiles><profile id="94dfba13-d207-4753-9115-e0ed60698c76" name="Upstart Gretchin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6"</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
-            <characteristic name="Sv" typeId="450-a17e-9d5e-29da">7+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-            <characteristic name="InSv" typeId="55a7-5b54-c60d-11dc"></characteristic>
-            <characteristic name="Base" typeId="nr-base-size">~25mm</characteristic></characteristics></profile><profile id="f11fe8b9-77e2-4ed2-b818-e1999abe16b5" name="Skulkin' Grot" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities.</characteristic></characteristics></profile><profile id="1293b082-779d-4a78-b235-a42a55377663" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-- **^^Gretchin^^**</characteristic></characteristics></profile></profiles></selectionEntry>
+      <profiles><profile id="94dfba13-d207-4753-9115-e0ed60698c76" name="Upstart Gretchin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit"><characteristics><characteristic name="M" typeId="0bdf-a96e-9e38-7779">6"</characteristic><characteristic name="WS" typeId="e7f0-1278-0250-df0c"></characteristic><characteristic name="BS" typeId="381b-eb28-74c3-df5f"></characteristic><characteristic name="S" typeId="2218-aa3c-265f-2939"></characteristic><characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic><characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic><characteristic name="A" typeId="13fc-b29b-31f2-ab9f"></characteristic><characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8+</characteristic><characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic></characteristics>
+          </profile><profile id="f11fe8b9-77e2-4ed2-b818-e1999abe16b5" name="Skulkin' Grot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities.</characteristic></characteristics>
+          </profile><profile id="1293b082-779d-4a78-b235-a42a55377663" name="Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities"><characteristics><characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can be attached to the following units:
+- **^^Gretchin^^**</characteristic></characteristics>
+          </profile></profiles></selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cb1c-c83b-5adb-5663" name="Power of the WAAAGH!" publicationId="28ec-711c-pubN118139" hidden="false" collective="false" import="true">
