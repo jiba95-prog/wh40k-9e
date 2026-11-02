@@ -234,7 +234,6 @@
     <categoryEntry id="6564-d9ce-b28c-b047" name="Hordeboss [11e convert]" hidden="false"/>
     <categoryEntry id="4649-cf7f-6d97-df94" name="Nazdreg [11e convert]" hidden="false"/>
     <categoryEntry id="004d-8909-7c60-0da1" name="Upstart Gretchin [11e convert]" hidden="false"/>
-    <categoryEntry id="3cd9-70a8-d77d-4e9c" name="Waaagh!boss [11e convert]" hidden="false"/>
     <categoryEntry id="3386-f4cc-0d18-20d9" name="Warphead [11e convert]" hidden="false"/>
     <categoryEntry id="4191-d7e3-2b04-9e8e" name="Wazdakka Gutsmek [11e convert]" hidden="false"/>
   </categoryEntries>
@@ -1256,20 +1255,19 @@
         <categoryLink id="9cbb-c62c-8e01-7673" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c5f9-b0ad-28ca-c6be" name="Big Mek Dakkarig [11e convert]" hidden="false" collective="false" import="true" targetId="78a7-cf35-aa8d-c420" type="selectionEntry"/>
-    <entryLink id="5a0a-1194-3fed-a785" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" targetId="dde2-ca42-e3bc-2ef6" type="selectionEntry"/>
-    <entryLink id="a640-2d2e-e97d-4e47" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" targetId="3b35-92f5-bd1a-af8d" type="selectionEntry"/>
-    <entryLink id="73cf-dea3-8634-6e15" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" targetId="181e-be55-d9c6-2b69" type="selectionEntry"/>
+    <entryLink id="c5f9-b0ad-28ca-c6be" name="Big Mek Dakkarig [11e convert]" hidden="false" collective="false" import="true" targetId="f517-6aa6-7d19-13c2" type="selectionEntry"/>
+    <entryLink id="5a0a-1194-3fed-a785" name="Big Mek with Shokk Attack Gun [11e convert]" hidden="false" collective="false" import="true" targetId="63ac-bded-f230-452a" type="selectionEntry"/>
+    <entryLink id="a640-2d2e-e97d-4e47" name="Bannernob [11e convert]" hidden="false" collective="false" import="true" targetId="d134-3bdb-4db3-203e" type="selectionEntry"/>
+    <entryLink id="73cf-dea3-8634-6e15" name="Bigboss [11e convert]" hidden="false" collective="false" import="true" targetId="33b4-d1e1-6f90-762b" type="selectionEntry"/>
     <entryLink id="16f3-7b41-33dc-02c3" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" targetId="a596-3d99-257e-0ea1" type="selectionEntry"/>
     <entryLink id="2f38-4e2c-5f49-9b98" name="Da Red Gobbo A-bomb-inable Snowman [11e convert]" hidden="false" collective="false" import="true" targetId="eace-d325-834e-71dd" type="selectionEntry"/>
-    <entryLink id="e760-b949-e4ca-ef85" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" targetId="3e53-68fa-a7b4-d6c6" type="selectionEntry"/>
-    <entryLink id="c7c7-ef60-67e3-def2" name="Grots [11e convert]" hidden="false" collective="false" import="true" targetId="f7c2-5590-5c3c-f8d4" type="selectionEntry"/>
+    <entryLink id="e760-b949-e4ca-ef85" name="Grotmas Gitz [Legends] [11e convert]" hidden="false" collective="false" import="true" targetId="96ec-51fe-cd61-b2c1" type="selectionEntry"/>
+    <entryLink id="c7c7-ef60-67e3-def2" name="Grots [11e convert]" hidden="false" collective="false" import="true" targetId="96ec-51fe-cd61-b2c1" type="selectionEntry"/>
     <entryLink id="cab8-7238-2445-067b" name="Hordeboss [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="2ba9-e97a-909d-3ac5" type="selectionEntry"/>
-    <entryLink id="a72a-b541-0ed2-39e9" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" targetId="80c4-14b2-d02d-d289" type="selectionEntry"/>
+    <entryLink id="a72a-b541-0ed2-39e9" name="Nazdreg [11e convert]" hidden="false" collective="false" import="true" targetId="33b4-d1e1-6f90-762b" type="selectionEntry"/>
     <entryLink id="e9e4-d332-9c57-f71b" name="Upstart Gretchin [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="6a69-8e75-49ae-408f" type="selectionEntry"/>
-    <entryLink id="d0ff-7d52-a77d-7f62" name="Waaagh!boss [11e convert]" hidden="false" collective="false" import="true" targetId="8bcd-4872-2581-37ca" type="selectionEntry"/>
-    <entryLink id="3049-3ebe-9129-ff02" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="54de-2004-bbc1-3ac6" type="selectionEntry"/>
-    <entryLink id="9f96-0177-abbe-926e" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" targetId="2ab7-ab71-0af4-5d39" type="selectionEntry"/>
+    <entryLink id="3049-3ebe-9129-ff02" name="Warphead [Crucible] [11e convert]" hidden="false" collective="false" import="true" targetId="4087-8bfc-973a-f88b" type="selectionEntry"/>
+    <entryLink id="9f96-0177-abbe-926e" name="Wazdakka Gutsmek [11e convert]" hidden="false" collective="false" import="true" targetId="aa39-9f9d-0e78-2f8a" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="fac1-6afc-e5c9-35c2" name="Ork Detachment Abilities" hidden="false">
@@ -18072,47 +18070,6 @@ We recommend placing a Grot Orderly model next to the unit as a reminder, removi
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry id="8bcd-4872-2581-37ca" name="Waaagh!boss [11e convert]" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f96-ef57-948b-aa38" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebaa-8d5a-dafc-8aee" type="max"/>
-      </constraints>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier field="category" scope="root-entry" type="add" value="3cd9-70a8-d77d-4e9c">
-              <conditions>
-                <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="lessThan"/>
-              </conditions>
-            </modifier>
-            <modifier affects="self.entries.ae9d-f74f-769c-5fc" field="category" scope="root-entry" type="add" value="3cd9-70a8-d77d-4e9c">
-              <conditions>
-                <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition childId="47cc-4071-6fda-688e" field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="notInstanceOf"/>
-                    <condition childId="ae9d-f74f-769c-5fc" field="selections" scope="root-entry" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz [11e convert]" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
